@@ -63,45 +63,6 @@
     </developer>
   </developers>
 
-  <dependencyManagement>
-    <dependencies>
-      <!-- Import all BOMs -->
-      <dependency>
-        <groupId>com.helger</groupId>
-        <artifactId>ph-commons-parent-pom</artifactId>
-        <version>9.0.1</version>
-        <scope>import</scope>
-        <type>pom</type>
-      </dependency>
-      <dependency>
-        <groupId>com.helger</groupId>
-        <artifactId>peppol-commons-parent-pom</artifactId>
-        <version>6.0.2-SNAPSHOT</version>
-        <scope>import</scope>
-        <type>pom</type>
-      </dependency>
-      <dependency>
-        <groupId>com.helger</groupId>
-        <artifactId>ph-web-parent-pom</artifactId>
-        <version>9.0.0</version>
-        <scope>import</scope>
-        <type>pom</type>
-      </dependency>
-      <dependency>
-        <groupId>com.helger</groupId>
-        <artifactId>ph-oton-parent-pom</artifactId>
-        <version>8.0.0</version>
-        <scope>import</scope>
-        <type>pom</type>
-      </dependency>
-      <dependency>
-        <groupId>com.helger</groupId>
-        <artifactId>ph-asic</artifactId>
-        <version>1.0.1</version>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
-
   <dependencies>
     <!-- We always need SLF4J as logging facade -->
     <dependency>
