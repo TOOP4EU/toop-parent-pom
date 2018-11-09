@@ -1,7 +1,7 @@
 # toop-parent-pom
 
 Shared Maven parent POM.
-The latest version is **1.0.5**.
+The latest version is **1.1.0**.
 
 # How to use it
 Include the following code in you pom.xml:
@@ -10,14 +10,15 @@ Include the following code in you pom.xml:
 <parent>
   <groupId>eu.toop</groupId>
   <artifactId>parent-pom</artifactId>
-  <version>1.0.5</version>
+  <version>1.1.0</version>
 </parent>
 ```
 
 ## News and noteworthy
 
-* v1.1.0 - work in progress
+* v1.1.0 - 2018-11-09
     * Updated to parent POM 1.10.7
+    * No more predefined JUnit
 * v1.0.5 - 2018-08-07
     * Removed workaround for JUnit 5 and Surefire
 * v1.0.4 - 2018-08-07
