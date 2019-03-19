@@ -16,6 +16,8 @@ Include the following code in you pom.xml:
 
 ## News and noteworthy
 
+* v1.1.1 - work in progress
+    * Updated to parent POM 1.10.8
 * v1.1.0 - 2018-11-09
     * Updated to parent POM 1.10.7
     * No more predefined JUnit
