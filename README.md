@@ -1,7 +1,7 @@
 # toop-parent-pom
 
 Shared Maven parent POM.
-The latest version is **1.1.0**.
+The latest version is **1.1.1**.
 
 # How to use it
 Include the following code in you pom.xml:
@@ -10,13 +10,13 @@ Include the following code in you pom.xml:
 <parent>
   <groupId>eu.toop</groupId>
   <artifactId>parent-pom</artifactId>
-  <version>1.1.0</version>
+  <version>1.1.1</version>
 </parent>
 ```
 
 ## News and noteworthy
 
-* v1.1.1 - work in progress
+* v1.1.1 - 2019-05-13
     * Updated to parent POM 1.10.8
 * v1.1.0 - 2018-11-09
     * Updated to parent POM 1.10.7
