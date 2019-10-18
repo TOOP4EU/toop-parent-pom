@@ -10,12 +10,15 @@ Include the following code in you pom.xml:
 <parent>
   <groupId>eu.toop</groupId>
   <artifactId>parent-pom</artifactId>
-  <version>1.1.1</version>
+  <version>1.1.2</version>
 </parent>
 ```
 
 ## News and noteworthy
 
+
+* v1.1.2 - 2019-10-18
+    * Updated to parent POM 1.10.9, added dependency management for ph common libraries
 * v1.1.1 - 2019-05-13
     * Updated to parent POM 1.10.8
 * v1.1.0 - 2018-11-09
